@@ -28,8 +28,3 @@ def merge(leftA, rightA):
             mergedA = mergedA + leftA[l_head : ]
             break
     return(mergedA)
-
-# Temporary test code
-import random
-A = random.sample(range(101), 11) * 2
-print(merge_sort(A))
